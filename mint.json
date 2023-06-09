@@ -1,30 +1,35 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Pylon",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#12A7D3",
-    "light": "#81D7F7",
-    "dark": "#004E7A"
+    "primary": "#3730a3",
+    "light": "#6366F1",
+    "dark": "#3730a3",
+    "anchors": {
+      "from": "#3730a3",
+      "to": "#6366F1"
+    }
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Book a Demo",
+      "url": "https://cal.com/pylon/demo"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Login",
+    "url": "http://app.usepylon.com"
   },
-  "tabs": [
+  "anchors": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Security",
+      "url": "https://drive.google.com/file/d/1IcT6Av_2lCee9V_6sbLNPeFxSZfI3kmH/view",
+      "icon": "shield-halved"
     }
   ],
   "navigation": [
@@ -51,9 +56,7 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  },
-  "backgroundImage": "/background.png"
+    "twitter": "https://twitter.com/usepylon",
+    "linkedin": "https://www.linkedin.com/company/usepylon"
+  }
 }
